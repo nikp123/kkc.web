@@ -4,9 +4,8 @@
   max-height: 100vh;
 }
 
-@media {
-  max-width: 600px;
-} .slideshow-fix {
-  object-fit: cover;
-  height: 100vh;
-}
+@media (max-width: 600px){
+  .slideshow-fix {
+      object-fit: cover;
+      height: 50vh;
+}}
