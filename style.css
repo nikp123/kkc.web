@@ -14,8 +14,12 @@ body {
 
 .text-format {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   text-shadow: 4px 5px 5px #000;
+}
+
+.img-fix {
+  width: 100%;
 }
 
 
@@ -30,7 +34,10 @@ body {
 }
 /* lg */
 @media (min-width: 992px) {
-
+.img-fix {
+  max-height: 90vh;
+  object-fit: cover;
+}
 }
 /* xl */
 @media (min-width: 1200px) {
