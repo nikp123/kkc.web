@@ -22,6 +22,11 @@ body {
   width: 100%;
 }
 
+.flex-fix-child {
+  flex-grow: 1;
+  flex-basis: 400px;
+}
+
 
 /* sm */
 @media (min-width: 576px) {
@@ -35,7 +40,7 @@ body {
 /* lg */
 @media (min-width: 992px) {
 .img-fix {
-  max-height: 90vh;
+  max-height: calc(100vh - 66px);
   object-fit: cover;
 }
 }
