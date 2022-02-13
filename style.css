@@ -20,8 +20,7 @@ body {
 .material-icons.md-48 { font-size: 48px; }
 
 .text-format {
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding-top: 3px;
   text-shadow: 4px 5px 5px #000;
 }
 
@@ -35,8 +34,11 @@ body {
 }
 
 .flex-fix-news {
+  display: flex;
+  flex-direction: column;
   flex-basis: 400px;
-  min-height: 500px;
+  flex-grow: 0 1;
+  min-height: 300px;
   max-width: 600px;
 }
 
