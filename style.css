@@ -12,6 +12,13 @@ body {
   background-color: slategrey;
 }
 
+
+//* Google icons styling *//
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
 .text-format {
   padding-top: 10px;
   padding-bottom: 5px;
@@ -25,6 +32,12 @@ body {
 .flex-fix-child {
   flex-grow: 1;
   flex-basis: 400px;
+}
+
+.flex-fix-news {
+  flex-basis: 400px;
+  min-height: 500px;
+  max-width: 600px;
 }
 
 
