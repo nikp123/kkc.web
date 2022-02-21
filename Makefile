@@ -15,4 +15,5 @@ lint:
 	go list ./cmd/gen | grep -v /vendor/ | xargs -L1 golint -set_exit_status
 
 build:
+	mkdir bin
 	go build -o bin/gen ./cmd/gen
